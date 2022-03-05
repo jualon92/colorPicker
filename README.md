@@ -1,16 +1,9 @@
-# untitled
+# Color Picker
 
-A new Flutter project.
+- Elegir un color cambia el fondo de la ui. Los colores son guardado en un map
+- La app conoce la plataforma utilizada mediante Platform.operatingSystem
+- La eleccion de color es guardada en localstorage. Se utiliza  async/await SharedPreferences.getInstance() para conocer el localstorage del dispositivo y 
+setter y getter.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Compatible con android, macos, windows y chrome.
+ 
