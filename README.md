@@ -1,6 +1,6 @@
-# Color Picker
+# Color Picker con Flutter
 
-##Se utiliza Flutter para una app simple, que funcione en celular/chrome y windows/macos.
+## Se utiliza Flutter para una app simple, que funcione en celular/chrome y windows/macOS.
 
 - Elegir un color cambia el fondo de la ui. Los colores son guardado en un map
 - La app conoce la plataforma utilizada mediante Platform.operatingSystem
